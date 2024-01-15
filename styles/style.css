@@ -1,0 +1,65 @@
+/* shear styles */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Mulish:wght@300;400;500;600;700;800&display=swap');
+
+*{
+    font-family: 'Inter', sans-serif;
+    font-family: 'Mulish', sans-serif;
+}
+
+.logo-primary{
+    color: #131318;
+    font-family: Mulish;
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.logo-second{
+    color: #FF5400;
+    font-family: Mulish;
+    font-size: 36px;
+    font-weight: 800;
+}
+
+
+/* header styles */
+
+.header-section{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+.nav-container{
+    display: flex;
+    align-items: center;
+    gap: 16.63px;
+    width: 50%;
+}
+
+.nav-container img{
+    width: 48px;
+    height: 56.008px;
+}
+
+.items-container{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.items-container > a{
+    text-decoration: none;
+    color: #424247;
+    font-family: Mulish;
+    ont-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: #FF5400;
+    font-family: Mulish;
+    font-size: 18px;
+    font-weight: 700;
+    }
