@@ -141,7 +141,7 @@ nav a:hover {
     justify-content: flex-start;
 }
 
-.btn-dropdown {
+/* .btn-dropdown {
     max-width: 174px;
     height: 52px;
     padding-left: 16px;
@@ -152,9 +152,9 @@ nav a:hover {
     justify-content: space-between;
     align-items: center;
     border-radius: 8px;
-}
+} */
 
-.btn-dropdown-color {
+/* .btn-dropdown-color {
     max-width: 174px;
     height: 52px;
     border-radius: 8px;
@@ -165,6 +165,44 @@ nav a:hover {
     justify-content: space-between;
     align-items: center;
     color: rgb(255, 255, 255);
+} */
+
+.banner-btn{
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background-color: #fff;
+    color: rgba(19, 19, 24, 0.50);
+    /* text-align: center; */
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+}
+
+.banner-btn-color{
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background-color: #ff5400;
+    color: #FFF;
+    /* text-align: center; */
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 16px;
 }
 
 .material-symbols-outlined {
@@ -173,6 +211,7 @@ nav a:hover {
 
 .hero-image {
     background-image: url("../Images/Group 13 (1) (1).png");
+    background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%),url("../Images/Group 13 (1) (1).png");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: contain;
@@ -268,4 +307,50 @@ nav a:hover {
     .items-container.active {
         left: 0px;
     }
+/* banner styles */
+    .banner {
+        margin: 0;
+    }
+
+    .banner-content {
+        width: 100%;
+    }
+
+    .banner-content h1 {
+        font-size: 22px;
+    }
+
+    .banner-content p {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 21px;
+    }
+
+    .banner-find {
+        display: inline-flex;
+        padding: 16px;
+        align-items: center;
+        gap: 16px;
+        justify-content: space-between;
+        flex-direction: column;
+        width: 287px;
+    }
+
+    .banner-btn {
+        width: 255px;
+    }
+
+    .banner-btn-color{
+        width: 255px;
+    }
+        
+
+
+
+
+
+
+
+
+
 }
