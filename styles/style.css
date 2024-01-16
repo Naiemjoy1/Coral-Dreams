@@ -241,6 +241,10 @@ nav a:hover {
     margin: 0 20%;
 }
 
+.destination-content p{
+    width: 643px;
+}
+
 .destination-img{
     /* border: 2px solid blueviolet; */
     width: 80%;
@@ -291,6 +295,108 @@ nav a:hover {
     grid-row: 5 / span 2;
     grid-column: 7 / span 7;
 }
+
+/* choose us styles */
+
+.choose-us{
+    margin-top: 20vh;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.choose-us-container p{
+    width: 643px;
+}
+
+.choose-us-frame{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+}
+
+.choose-us-frame img{
+    width: 64px;
+    height: 64px;
+}
+
+.choose-us-frame2{
+    margin-top: 20px;
+    gap: 20px;
+}
+
+.choose-us-frame2 img{
+    width: 64px;
+    height: 64px;
+}
+
+.frame-text{
+    color: #131318;
+    font-family: 'Mulish';
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.frame-description{
+    color: #5a5a5d;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    width: 486px;
+}
+
+.frame1{
+    width: 572px;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    text-align: left;
+    padding: 20px;
+}
+
+.frame2{
+    width: 572px;
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+    text-align: left;
+    padding: 20px;
+}
+
+.frame3{
+    width: 572px;
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    text-align: left;
+    padding: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -411,7 +517,7 @@ nav a:hover {
     }
 
     .tour-text-container {
-        width: 100%;
+        width: 335px;
     }
     
     .tour-img {
@@ -430,14 +536,55 @@ nav a:hover {
         margin: 0;
     }
 
+    .destination-content p {
+        width: 309px;
+    }
+
     .destination-img {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
+ /* choose us styles */
+ .choose-us{
+    margin-top: 10vh;
+ }
 
+ .choose-us-container p {
+    width: 309px;
+}
 
+.choose-us-frame img {
+    width: 48px;
+    height: 48px;
+}
+
+ .choose-us-frame {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+
+.frame-text {
+    font-size: 20px;
+}
+
+.frame-description {
+    font-size: 14px;
+    width: 271px;
+}
+
+.frame1 {
+    width: 335px;
+}
+.frame2 {
+    width: 335px;
+}
+.frame3 {
+    width: 335px;
+}
+    
 
 
 
