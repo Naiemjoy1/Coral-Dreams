@@ -490,14 +490,38 @@ nav a:hover {
     margin-top: 32px;
 }
 
-.place-video-container {
+.place-video {
     width: 610px;
     height: 424px;
     border-radius: 16px;
     background: linear-gradient(rgb(19, 19, 24) -31.96%, rgba(19, 19, 24, 0) 100%);
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media screen and (max-width: 576px) {
+    /* *{
+        margin-left: 20px;
+        margin-right: 20px;
+    } */
     .nav-container img {
         width: 28.724px;
         height: 33.516px;
@@ -680,4 +704,49 @@ nav a:hover {
     .deals-container p {
         width: 309px;
     }
+
+    /* place styles */
+    .place-section {
+        display: flex;
+        align-items: flex-start;
+        margin-top: 10vh;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .place-text-container h1 {
+        width: 248px;
+    }
+
+    .place-text-container p {
+        width: 335px;
+    }
+
+    .place-text-container ul{
+        width: 335px;
+    }
+
+    .place-section button {
+        margin-top: 24px;
+        margin-bottom: 24px;
+    }
+
+    .place-video {
+        width: 335px;
+        height: 200px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
