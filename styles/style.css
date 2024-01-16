@@ -235,6 +235,8 @@ nav a:hover {
     width: 540px;
     height: 550px;
     border-radius: 16px;
+    background-image: url("../Images/Rectangle 4.png");
+    border: 3px solid tomato;
 }
 
 .tour-text-container li {
@@ -252,6 +254,16 @@ nav a:hover {
     font-size: 20px;
     font-weight: 800;
 }
+
+
+
+
+
+
+
+
+
+
 
 @media screen and (max-width: 576px) {
     .nav-container img {
@@ -343,7 +355,32 @@ nav a:hover {
     .banner-btn-color{
         width: 255px;
     }
-        
+
+    /* tour styles */
+
+    .tour {
+        display: flex;
+        place-content: center space-evenly;
+        margin-top: 5vh;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .primary-text {
+        font-size: 20px;
+    }
+
+    .tour-text-container {
+        width: 100%;
+    }
+    
+    .tour-img {
+        width: 335px;
+        height: 342px;
+        margin-top: 24px;
+        /* align-content: center; */
+    }
 
 
 
