@@ -245,32 +245,63 @@ nav a:hover {
     height: 100%;
 }
 
+.centered {
+    font-size: 28px;
+    font-weight: 800;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
 .grid-item-1 {
     grid-area: 1 / 1 / span 2 / span 7;
+    position: relative;
+    text-align: center;
+    color: white;
 }
+
 
 .grid-item-2 {
     grid-area: 1 / 8 / span 2 / span 6;
+    position: relative;
+    text-align: center;
+    color: white;
 }
 
 .grid-item-3 {
     grid-area: 3 / 1 / span 2 / span 4;
+    position: relative;
+    text-align: center;
+    color: white;
 }
 
 .grid-item-4 {
     grid-area: 3 / 5 / span 2 / span 5;
+    position: relative;
+    text-align: center;
+    color: white;
 }
 
 .grid-item-5 {
     grid-area: 3 / 10 / span 2 / span 4;
+    position: relative;
+    text-align: center;
+    color: white;
 }
 
 .grid-item-6 {
     grid-area: 5 / 1 / span 2 / span 6;
+    position: relative;
+    text-align: center;
+    color: white;
 }
 
 .grid-item-7 {
     grid-area: 5 / 7 / span 2 / span 7;
+    position: relative;
+    text-align: center;
+    color: white;
 }
 
 .choose-us {
@@ -397,14 +428,30 @@ nav a:hover {
     text-align: end;
 }
 
-.package-details {
+.package-details-right{
     border: 2px solid rgb(255, 255, 255);
     width: 579px;
-    height: 389px;
+    height: 300px;
     border-radius: 16px;
     background: rgba(255, 255, 255, 0.8);
     backdrop-filter: blur(2.5px);
     text-align: left;
+    float: right;
+    margin-top: 50px;
+    margin-right: 50px;
+    padding: 20px;
+}
+.package-details-left {
+    border: 2px solid rgb(255, 255, 255);
+    width: 579px;
+    height: 300px;
+    border-radius: 16px;
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(2.5px);
+    text-align: left;
+    margin-top: 50px;
+    margin-left: 50px;
+    padding: 20px;
 }
 
 .package-main {
@@ -504,14 +551,16 @@ nav a:hover {
 }
 
 .newsletter {
-    margin-top: 20vh;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
+    width: 90%;
+    margin: auto;
+    margin-top: 20vh;
 }
 
 .newsletter-input {
-    width: 474px;
+    width: 40%;
     height: 411px;
     border-radius: 16px;
     border: 1px solid rgb(255, 84, 0);
@@ -554,9 +603,11 @@ nav a:hover {
 }
 
 .newsletter-img {
+    width: 50%;
 }
 
 .newsletter-img img {
+    width: 100%;
 }
 
 .save-badge {
@@ -568,6 +619,9 @@ nav a:hover {
     position: relative;
     color: rgb(255, 255, 255);
     transform: rotate(-19.628deg);
+    float: right;
+    margin-top: -180px;
+    margin-right: 10px;
 }
 
 .save-badge p {
@@ -786,6 +840,12 @@ nav a:hover {
         justify-content: center;
         align-items: center;
     }
+    .centered {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
 
     .choose-us {
         margin-top: 10vh;
