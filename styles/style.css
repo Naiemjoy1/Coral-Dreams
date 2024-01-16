@@ -538,7 +538,64 @@ nav a:hover {
 
 }
 
-.save-badge{border-radius: 16px;width: 324px;height: 120px;background-color: #ff5400;text-align: center;position: relative;color: #fff;/* justify-content: center; */}
+.save-badge{border-radius: 16px;width: 324px;height: 120px;background-color: #ff5400;text-align: center;position: relative;color: #fff;transform: rotate(-19.628deg);/* justify-content: center; */}
+
+.save-badge p{
+    color: #fff;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.save-badge h4{
+    color: #fff;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 800;
+    margin: 0;
+}
+
+.newsletter-input hr{
+    width: 393px;
+    height: 1px;
+    background: rgba(19, 19, 24, 0.10);
+}
+
+.footer{margin-top: 100px;display: flex;flex-direction: column;align-items: center;background: rgba(19, 19, 24, 0.05);padding: 130px 200px;}
+
+.footer-logo{
+    display: flex;
+    align-items: center;
+    gap: 16.63px;
+    width: 50%;
+    justify-content: center;
+}
+
+.footer-text{
+    width: 769px;
+    text-align: center;
+}
+
+.footer-text p{color: #5a5a5d;font-size: 16px;font-weight: 400;line-height: 26px;}
+
+.footer-social{
+    
+}
+
+.footer-social a{
+
+}
+
+.footer hr{width: 872px;height: 1px;background: rgba(19, 19, 24, 0.10);}
+
+.footer-copyright{color: #131318;font-family: Inter;font-size: 16px;font-weight: 300;}
+
+.footer-copyright p{
+
+}
+
+
 
 
 
@@ -777,6 +834,51 @@ nav a:hover {
     .place-video {
         width: 335px;
         height: 200px;
+    }
+
+    .newsletter {
+        margin-top: 10vh;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .newsletter-input {
+        width: 335px;
+        height: 352px;
+    }
+
+    .subscribe input[type="text"], .subscribe input[type="email"] {
+        width: 288px;
+        height: 52px;
+    }
+
+    .newsletter-input button {
+        width: 288px;
+        height: 52px 
+    }
+
+    .newsletter-img img {
+        width: 400px;
+    }
+
+    .save-badge {
+        width: 214.023px;
+        height: 79.268px;
+    }
+
+    .save-badge p {
+        font-size: 15px;
+    }
+
+    .save-badge h4 {
+        font-size: 21px;
+    }
+
+    .newsletter-input hr {
+        width: 288px;
     }
 
 
