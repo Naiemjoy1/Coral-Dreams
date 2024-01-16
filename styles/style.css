@@ -169,10 +169,10 @@ nav a:hover {
 }
 
 .hero-image {
-    border: 3px solid tomato;
+    /* border: 3px solid tomato; */
     background-image: linear-gradient(rgba(19, 19, 24, 0.8) 0%, rgba(19, 19, 24, 0) 100%), url("../Images/Group 13 (1) (1).png");
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: 100% 100%;
     position: relative;
     border-radius: 16px;
     height: 500px;
@@ -385,6 +385,12 @@ nav a:hover {
 }
 
 .deals-banner-section {
+    width: 1170px;
+    height: 500px;
+    background-image: url("../Images/Group 39.png");
+    text-align: end;
+}
+.deals-banner-section2 {
     width: 1170px;
     height: 500px;
     background-image: url("../Images/Group 39.png");
