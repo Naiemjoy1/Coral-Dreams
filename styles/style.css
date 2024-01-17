@@ -261,7 +261,6 @@ nav a:hover {
     color: white;
 }
 
-
 .grid-item-2 {
     grid-area: 1 / 8 / span 2 / span 6;
     position: relative;
@@ -389,12 +388,6 @@ nav a:hover {
     justify-content: center;
 }
 
-.deals-container {
-}
-
-.deals-container h1 {
-}
-
 .deals-container p {
     width: 643px;
 }
@@ -421,12 +414,12 @@ nav a:hover {
     background-image: url("../Images/Group 39.png");
     text-align: end;
 }
-.deals-banner-section2 {
+/* .deals-banner-section2 {
     width: 1170px;
     height: 500px;
     background-image: url("../Images/Group 39.png");
     text-align: end;
-}
+} */
 
 .package-details-right{
     border: 2px solid rgb(255, 255, 255);
@@ -518,6 +511,7 @@ nav a:hover {
 
 .place-text-container {
     width: 518px;
+    /* margin-left: 40%; */
 }
 
 .place-text-container h1 {
@@ -548,6 +542,9 @@ nav a:hover {
     height: 424px;
     border-radius: 16px;
     background: linear-gradient(rgb(19, 19, 24) -31.96%, rgba(19, 19, 24, 0) 100%);
+    /* position: relative;
+    text-align: center;
+    color: white; */
 }
 
 .newsletter {
@@ -589,9 +586,6 @@ nav a:hover {
     font-size: 20px;
     font-weight: 800;
     font-family: Mulish;
-}
-
-.subscribe {
 }
 
 .subscribe input[type="text"], .subscribe input[type="email"] {
@@ -675,11 +669,9 @@ nav a:hover {
 }
 
 .footer-social {
-    /* width: 24px; */
     height: 24px;
     display: flex;
-    /* justify-content: space-between; */
-    /* align-items: center; */
+    
 }
 
 .footer-social a {
@@ -702,9 +694,8 @@ nav a:hover {
     font-weight: 300;
 }
 
-.footer-copyright p {
-}
 
+/* responsive for mobile device */
 @media screen and (max-width: 576px) {
     .nav-container img {
         width: 28.724px;
@@ -877,14 +868,17 @@ nav a:hover {
 
     .frame1 {
         width: 335px;
+        padding: 10px;
     }
 
     .frame2 {
         width: 335px;
+        padding: 10px;
     }
 
     .frame3 {
         width: 335px;
+        padding: 10px;
     }
 
     .deals {
@@ -895,12 +889,55 @@ nav a:hover {
         width: 309px;
     }
 
+    .deals-banner-section {
+        width: 335px;
+        height: 500px;
+    }
+
+    .package-details-right {
+        width: 303px;
+        height: 297px;
+        float: none;
+        margin-top: 50px;
+        margin-right: 0;
+        padding: 20px;
+    }
+
+    /* .package-details-left {
+        width: 303px;
+        height: 297px;
+        float: none;
+        margin-top: 50px;
+        margin-right: 50px;
+        padding: 20px;
+    } */
+
+    .package-details-left {
+        width: 303px;
+        height: 297px;
+        margin-left: 0;
+    }
+
+    .package-description {
+        font-size: 14px;
+        width: 100%;
+    }
+
+    .package-text {
+        font-size: 20px;
+        margin: 0;
+    }
+
     .place-section {
         display: flex;
-        align-items: flex-start;
+        align-items: center;
         margin-top: 10vh;
         flex-direction: column;
-        justify-content: space-evenly;
+        justify-content: space-between;
+    }
+
+    .place-text-container {
+        width: 335px;
     }
 
     .place-text-container h1 {
@@ -932,11 +969,16 @@ nav a:hover {
         align-items: center;
         flex-direction: column;
         gap: 16px;
+        margin: 0;
+        margin-top: 10vh;
+        /* width: auto; */
+        padding-left: 10px;
     }
 
     .newsletter-input {
         width: 335px;
         height: 352px;
+        padding: 20px;
     }
 
     .subscribe input[type="text"], .subscribe input[type="email"] {
@@ -950,12 +992,14 @@ nav a:hover {
     }
 
     .newsletter-img img {
-        width: 400px;
+        width: 100%;
     }
 
     .save-badge {
         width: 214.023px;
         height: 79.268px;
+        margin-top: -114px;
+        margin-right: 3px;
     }
 
     .save-badge p {
@@ -972,11 +1016,12 @@ nav a:hover {
 
     .footer {
         margin-top: 10vh;
-        padding: 44px 136px;
+        /* padding: 44px 136px; */
     }
 
     .footer-logo {
         width: 100%;
+        margin-top: 10vh;
     }
 
     .footer-text {
@@ -989,10 +1034,19 @@ nav a:hover {
     }
 
     .footer hr {
-        width: 335px;
+        width: 297px;
     }
 
     .footer-copyright {
-        font-size: 14px;
+    color: #131318;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 300;
     }
+
+    .newsletter-img {
+        width: 100%;
+    }
+
+
 }
